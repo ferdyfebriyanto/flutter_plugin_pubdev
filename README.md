@@ -113,9 +113,28 @@ Run aplikasi tersebut dengan tekan F5, maka hasilnya akan seperti berikut.
 
 1. Selesaikan Praktikum tersebut, lalu dokumentasikan dan push ke repository Anda berupa screenshot hasil pekerjaan beserta penjelasannya di file README.md!
 2. Jelaskan maksud dari langkah 2 pada praktikum tersebut!
-3. Jelaskan maksud dari langkah 5 pada praktikum tersebut!
+
+    * flutter pub add auto_size_text: Untuk menambahkan plugin auto_size_text ke dalam project
+
+3. Jelaskan maksud dari langkah 5 pada praktikum tersebut!\
+
+    * final String text: Untuk mendeklarasikan variabel text
+    * const RedTextWidget({Key? key, required this.text}): Untuk mendeklarasikan parameter text pada widget RedTextWidget
+
 4. Pada langkah 6 terdapat dua widget yang ditambahkan, jelaskan fungsi dan perbedaannya!
+
+    * Widget pertama (Container) berwarna kuning dengan lebar 50 dan berisi widget RedTextWidget dengan text "You have pushed the button this many times:"
+    * Widget kedua (Container) berwarna hijau dengan lebar 100 dan berisi widget Text dengan text "You have pushed the button this many times:"
+    * Perbedaannya terletak pada widget yang digunakan, widget pertama menggunakan widget RedTextWidget sedangkan widget kedua menggunakan widget Text
+    * Widget RedTextWidget menggunakan plugin auto_size_text sedangkan widget Text menggunakan widget bawaan flutter
+
 5. Jelaskan maksud dari tiap parameter yang ada di dalam plugin auto_size_text berdasarkan tautan pada dokumentasi [ini](https://pub.dev/documentation/auto_size_text/latest/) !
+
+    * text: Text yang akan ditampilkan
+    * style: Style dari text
+    * maxLines: Jumlah maksimal baris yang ditampilkan
+    * overflow: Tipe overflow yang digunakan
+
 6. Kumpulkan laporan praktikum Anda berupa link repository GitHub ke LMS!
 
 
