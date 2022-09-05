@@ -66,6 +66,10 @@ return AutoSizeText(
 
 Setelah Anda menambahkan kode di atas, Anda akan mendapatkan info error. Mengapa demikian? Jelaskan dalam laporan praktikum Anda!
 
+* Dikarenakan belum import package auto_size_text
+* Belum menambahkan parameter text pada widget RedTextWidget
+* Belum menambahkan parameter text pada widget AutoSizeText
+
 ## Langkah 5:Buat Variabel text dan parameter di constructor
 
 Tambahkan variabel text dan parameter di constructor seperti berikut.
