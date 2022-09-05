@@ -127,6 +127,9 @@ Run aplikasi tersebut dengan tekan F5, maka hasilnya akan seperti berikut.
     * Widget kedua (Container) berwarna hijau dengan lebar 100 dan berisi widget Text dengan text "You have pushed the button this many times:"
     * Perbedaannya terletak pada widget yang digunakan, widget pertama menggunakan widget RedTextWidget sedangkan widget kedua menggunakan widget Text
     * Widget RedTextWidget menggunakan plugin auto_size_text sedangkan widget Text menggunakan widget bawaan flutter
+    * Widget RedTextWidget memiliki text yang lebih panjang sehingga akan di potong menjadi 2 baris dan ditambahkan tanda titik (ellipsis) di akhir kalimat, sedangkan widget Text tidak memiliki text yang panjang sehingga tidak akan di potong.
+    * Widget RedTextWidget memiliki text yang berwarna merah sedangkan widget Text memiliki text yang berwarna hitam.
+    * Widget RedTextWidget memiliki text yang lebih kecil dibandingkan widget Text.
 
 5. Jelaskan maksud dari tiap parameter yang ada di dalam plugin auto_size_text berdasarkan tautan pada dokumentasi [ini](https://pub.dev/documentation/auto_size_text/latest/) !
 
